@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>INGRESO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/css/miEstilo.css" rel="stylesheet">
+
+    </head>
+    <body>        
+        <form method="get"   action="">
+            <h2><b>INICIAR SESIÓN</b></h2>
+            <h4><b>DATOS DE USUARIO</b></h4>
+            <label for=""><b>Documento</b></label>
+                <input type="text" name="txtdocumento"> <br>
+            <label for=""><b>Contraseña</b> </label>
+                <input type="password" name="txtpw"> <br><br>
+            <label for=""><b>Tipo de Usuario</b></label><br>
+                <input type="radio" name="txtTusuario"id="t">Médico
+                <input type="radio" name="txtTusuario"id="t">Paciente
+                <input type="radio" name="txtTusuario"id="t">Administrador  <br> <br>
+            <script type="text/javascript">
+                {
+                  var t = document.getElementById("t");
+                  if(t.value=="Médico"){
+                      t.value="Medico";                        
+                  else if(t.value=="Paciente"){
+                      t.value="Paciente";
+                  else if(t.value=="Administrador"){
+                      t.value="Administrador";
+                } 
+            </script>                             
+            <script type="text/javascript">
+                function Buttontoggle()
+                {
+                  if(t.value=="Médico"){
+                      <a href="/Vistas/Medico.html";}                     
+                  else if(t.value=="Paciente"){
+                      <a href="/Vistas/Paciente.html";}
+                  else if(t.value=="Administrador"){
+                      <a href="/Vistas/Administrador.html";}
+                
+                }  
+            </script>              
+             
+                <button type="button">Ingresar</button>
+
+        </form>   
+    </body>
+</html>

@@ -1,0 +1,74 @@
+body {
+    height: 400px;
+    background-image: URL("img/imagen1.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: serif;
+    font-size: large;
+    text-align: justify;
+    color:   #0c0f11;
+    margin-right:10rem;
+    margin-bottom: 20rem;
+    margin-left: 10rem;
+    margin-top: 4rem;
+
+    background: rgb(246, 248, 250);    
+}
+h1{
+  font-family: serif;
+  text-align: center;
+  color:   #010405;
+  background: rgb(103, 184, 238);
+}
+
+h2{
+  font-family: serif;
+  text-align: center;
+  color:   #0c0f11;
+  background: rgba(245, 204, 24, 0.842);
+}
+
+h4{
+  font-family: serif;
+  text-align: center;
+  color:   #0c0f11;
+  background: rgba(35, 141, 202, 0.842);
+}
+
+form{
+  width: 700px;
+  padding: 16px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 5px;
+  background-color: #ccc;
+}
+
+input {
+  width: auto;
+  margin: 5px;
+  border-radius: 5px;
+  border: 0px;
+  padding: 5px;
+  font-family: Verdana;
+  color: rgb(162, 157, 157);
+}
+button {
+  text-align: center;
+  font-weight: bold;
+}
+
+table{
+  width: 100%;
+  border: 1px solid black;
+}
+
+td, td{
+  width: 25%;
+  border-color: black;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid black;
+  font-size: small;
+}

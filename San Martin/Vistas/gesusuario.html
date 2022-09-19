@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Gestion de Usuarios</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/css/miEstilo.css" rel="stylesheet">
+    </head>
+
+    <body>   
+        <form method="get"   action="">
+            <h2><b><b></b>GESTIÓN DE USUARIOS</b></h2><br>
+            <fieldset>
+            <label for=""><b>CONSULTAR PACIENTE POR DOCUMENTO</b></label> <br>
+                <input type="text"> <br>
+            <button type="button"><b>Consultar</b></button> <br><br> 
+            </fieldset> <br>
+            <fieldset>
+            <label for=""><b>CONSULTAR PACIENTE POR NOMBRE</b></label> <br>
+                <input type="text"> <br>
+                <button type="button"><b>Consultar</b></button> <br><br> 
+            </fieldset> <br>
+            <h4>DATOS DE USUARIO</h4>
+            <label for="">Nombre</label>
+                <input type="text"name="txtNombre"> <br>
+            <label for="">Género</label>
+                <input type="radio" name="txtGenero">Masculino
+                <input type="radio" name="txtGenero">Femenino  <br> 
+            <label for="">Fecha de nacimiento</label>
+                <input type="date"name="txtnacimiento"> <br>           
+            <label for="">Documento</label>
+                <input type="text" name="txtdocumento"> <br>
+            <label for="">Teléfono</label>
+                <input type="text" name="txtTelefono"> <br>   
+            <label for="">Dirección</label>
+                <input type="text" name="textDireccion"> <br>
+            <label for="">Correo</label>
+                <input type="text" name="txtcorreo"> <br><br>         
+            <label for="">Tipo de Usuario</label><br>
+                <input type="radio" name="txtTusuario">Médico
+                <input type="radio" name="txtTusuario">Paciente
+                <input type="radio" name="txtTusuario">Administrador <br><br> 
+            <label for="">Contraseña</label>
+                <input type="password" name="txtpw"> <br>
+            <label for=""> Confirmar Contraseña</label>
+                <input type="password" name="txtCpw"> <br><br>   
+
+            
+            <button type="submit"><b>Editar</b></button>
+    
+        </form>    
+    </body>
+</html>
