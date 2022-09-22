@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Gestion de Usuarios</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" alt="logo sacado de interne para fines practicos">
+                <h2 class="nlogo">SAN MARTÍN</h2>
+            </a>
+            <nav>
+                <a href="" class="nav-link">INICIO</a>
+                <a href="login/login.html" class="nav-link">INICIAR SESIÓN</a>
+            </nav>
+        </header>   
+        <form method="get"   action="">
+            <div class="titulo">
+                <center><h2>GESTIÓN DE USUARIOS</h2></center>
+            </div>
+            <div class="option">
+                <fieldset>
+                    <label for=""><h4>CONSULTAR PACIENTE POR DOCUMENTO<h4></label> <br>
+                        <input type="text"> <br>
+                    <button type="button"><b>Consultar</b></button> <br><br> 
+                    </fieldset> <br>
+            </div>
+            <div class="option">
+                <fieldset>
+                    <label for=""><h4>CONSULTAR PACIENTE POR NOMBRE</h4></label> <br>
+                        <input type="text"> <br>
+                        <button type="button"><b>Consultar</b></button> <br><br> 
+                    </fieldset> <br>
+            </div>
+            <div class="option">
+                <fieldset>
+                    <h4>DATOS DE USUARIO</h4>
+                    <label for="">Nombre</label>
+                        <input type="text"name="txtNombre"> <br>
+                    <label for="">Género</label>
+                        <input type="radio" name="txtGenero">Masculino
+                        <input type="radio" name="txtGenero">Femenino  <br> 
+                    <label for="">Fecha de nacimiento</label>
+                        <input type="date"name="txtnacimiento"> <br>           
+                    <label for="">Documento</label>
+                        <input type="text" name="txtdocumento"> <br>
+                    <label for="">Teléfono</label>
+                        <input type="text" name="txtTelefono"> <br>   
+                    <label for="">Dirección</label>
+                        <input type="text" name="textDireccion"> <br>
+                    <label for="">Correo</label>
+                        <input type="text" name="txtcorreo"> <br><br>         
+                    <label for="">Tipo de Usuario</label><br>
+                        <input type="radio" name="txtTusuario">Médico
+                        <input type="radio" name="txtTusuario">Paciente
+                        <input type="radio" name="txtTusuario">Administrador <br><br> 
+                    <label for="">Contraseña</label>
+                        <input type="password" name="txtpw"> <br>
+                    <label for=""> Confirmar Contraseña</label>
+                        <input type="password" name="txtCpw"> <br><br> 
+                        <button type="submit"><b>Editar</b></button>
+                </fieldset>  
+            </div>
+        </form>    
+    </body>
+</html>
